@@ -6,23 +6,23 @@ console.log(`Number of categories: ${totalCategories.children.length}`);
 //   console.lof(listName);
 // });
 
-const elems = document.querySelectorAll("h2,.ul");
+const elems = document.querySelectorAll("h2");
 elems.forEach((item) => {
   console.log(`Category: ${item.firstChild.textContent}`);
-  console.log(
-    `Elements: ${item.children[1]}`
-  );
+
 });
 
+
+
+// listEl.forEach((value) => {
+//   console.log(value.children.length);
+// });
 // const listEl = document.querySelectorAll("ul");
 // listEl.forEach((numbers) => {
 //   console.log(`Elements: ${numbers.children.length}`);
 // });
 
-
 // console.log(item.children.length);
-  
-
 
 // const elemsCount = document.querySelectorAll('li');
 // elemsCount.forEach((count) => {
