@@ -9,7 +9,6 @@ console.log(`Number of categories: ${totalCategories.children.length}`);
 const elems = document.querySelectorAll("h2");
 elems.forEach((item) => {
   console.log(`Category: ${item.firstChild.textContent}`);
-
 });
 
 
